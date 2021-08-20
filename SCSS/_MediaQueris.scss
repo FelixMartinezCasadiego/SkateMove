@@ -1,0 +1,146 @@
+//Media Queris Freestyle - Letícia Bufoni
+
+.FreeMedia1{
+    display: grid;
+    grid-template-areas: "Leti1 Leti2";
+    justify-items: center;
+    align-content: center;
+}
+
+.Leti1{
+    grid-area: Leti1;
+}
+
+.Leti2{
+    grid-area: Leti2;
+}
+
+@media screen and (max-width:768px) {
+    .FreeMedia1{
+        display: grid;
+        grid-template-areas: "Leti2" "Leti1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
+}
+
+//Media Queris Freestyle - Videos
+
+.FreeMedia2{
+    display: grid;
+    grid-template-areas: "VideoFree1 VideoFree2";
+    justify-items: center;
+    align-content: center;
+}
+
+.VideoFree1{
+    grid-area: VideoFree1;
+}
+
+.VideoFree2{
+    grid-area: VideoFree2;
+}
+
+@media screen and (max-width:768px) {
+    .FreeMedia2{
+        display: grid;
+        grid-template-areas: "VideoFree1" "VideoFree2";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
+}
+
+//Media Queris Freestyle - Patinetas
+
+.FreeMedia3{
+    display: grid;
+    grid-template-areas: "FreePatineta1 FreePatineta2";
+    justify-items: center;
+    justify-content: center;
+}
+
+.FreePatineta1{
+    grid-area: FreePatineta1;
+}
+
+.FreePatineta2{
+    grid-area: FreePatineta2;
+}
+
+@media screen and (max-width:768px) {
+    .FreeMedia3{
+        display: grid;
+        grid-template-areas: "FreePatineta2" "FreePatineta1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+    }
+
+}
+
+//Media Queris Videos Carving
+
+.VideosCarving__MediaQueris{
+    display: grid;
+    grid-template-areas: "Video__Carving1 Video__Carving2" "Video__Carving3 Video__Carving4" "Video__Carving5 Video__Carving6";
+    justify-items: center;
+    align-content: space-around;
+    grid-row-gap: 10px;   
+}
+
+.Video__Carving1{
+    grid-area: Video__Carving1;
+}
+
+.Video__Carving2{
+    grid-area: Video__Carving2;
+}
+
+.Video__Carving3{
+    grid-area: Video__Carving3;
+}
+
+.Video__Carving4{
+    grid-area: Video__Carving4;
+}
+
+.Video__Carving5{
+    grid-area: Video__Carving5;
+}
+
+.Video__Carving6{
+    grid-area: Video__Carving6;
+}
+
+@media screen and (max-width:768px) {
+    .VideosCarving__MediaQueris{
+         display: grid;
+         grid-template-areas: 
+         "Video__Carving1" 
+         "Video__Carving2" 
+         "Video__Carving3" 
+         "Video__Carving4" 
+         "Video__Carving5" 
+         "Video__Carving6";
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+
+// Media Queris Patinetas
+
+@media screen and (max-width:1024px) {
+    .GradientFree{
+        display: grid;
+        grid-template-areas: 
+        "DivFreeP" 
+        "AsideFree";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+   }
+}
+
+

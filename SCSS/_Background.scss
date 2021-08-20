@@ -1,0 +1,12 @@
+// Background Patinetas Downhill, Carving y Freestyles
+
+
+@each $PatinBack in PatinetasDownhill1, PatinetasCarving1, PatinetasFreestyles1 {
+    .#{$PatinBack}-Muestra{
+        background-image: url("../Imagenes/#{$PatinBack}.jpg");
+        background-size: contain;
+        background-repeat: repeat;
+        height: 200px;
+        margin-top: 10px;
+    }
+}
