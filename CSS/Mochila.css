@@ -2,7 +2,7 @@ p {
   color: black;
   font-family: TituloSecundario;
   text-align: justify;
-  padding: 0px 0px 30px 0px;
+  padding: 0px 70px 10px 70px;
   font-size: 20px;
   font-weight: bold;
 }
@@ -189,7 +189,7 @@ h4 {
 
 .SigueLeyendo1 {
   font-family: TituloSecundario;
-  margin: 20px 0px 0px 0px;
+  margin: 20px 30px 10px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,18 +601,22 @@ h5 {
 
 .Skater__H4 {
   background-color: #FF7477;
+  margin: 0px 30px 20px 30px;
 }
 
 .Videos__H4 {
   background-color: #9CF6F6;
+  margin: 0px 30px 20px 30px;
 }
 
 .Patinetas__H4 {
   background-color: #FFEE93;
+  margin: 0px 30px 20px 30px;
 }
 
 .Estilo__H4 {
   background-color: #FF7477;
+  margin: 0px 30px 20px 30px;
 }
 
 .PatinetasDownhill1-Muestra {
@@ -640,7 +644,7 @@ h5 {
 }
 
 footer {
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 100px;
 }
 
