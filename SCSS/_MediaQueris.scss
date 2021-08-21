@@ -1,4 +1,4 @@
-//Media Queris Freestyle - Letícia Bufoni
+//Media Queris Freestyle/Carving/Downhill - Skater
 
 .FreeMedia1{
     display: grid;
@@ -15,7 +15,7 @@
     grid-area: Leti2;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .FreeMedia1{
         display: grid;
         grid-template-areas: "Leti2" "Leti1";
@@ -25,7 +25,7 @@
     }
 }
 
-//Media Queris Freestyle - Videos
+//Media Queris Freestyle/Carving/Downhill - Videos
 
 .FreeMedia2{
     display: grid;
@@ -42,23 +42,24 @@
     grid-area: VideoFree2;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .FreeMedia2{
         display: grid;
         grid-template-areas: "VideoFree1" "VideoFree2";
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
-        grid-row-gap: 10px;
+        grid-row-gap: 10px;        
     }
 }
 
-//Media Queris Freestyle - Patinetas
+//Media Queris Freestyle/Carving/Downhill - Patinetas
 
 .FreeMedia3{
     display: grid;
     grid-template-areas: "FreePatineta1 FreePatineta2";
     justify-items: center;
-    justify-content: center;
+    align-content: center;
+
 }
 
 .FreePatineta1{
@@ -69,13 +70,16 @@
     grid-area: FreePatineta2;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .FreeMedia3{
         display: grid;
         grid-template-areas: "FreePatineta2" "FreePatineta1";
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2, 1fr);
         grid-row-gap: 10px;
+        background-size: contain;
+        
+       
     }
 
 }
@@ -114,7 +118,7 @@
     grid-area: Video__Carving6;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1200px) {
     .VideosCarving__MediaQueris{
          display: grid;
          grid-template-areas: 
