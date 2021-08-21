@@ -1,21 +1,22 @@
 # Skate Move
 
-Proyecto para CoderHouse, es una web que explica brevemente en que consisten algunas modalidades del skateboard.
+Este repositorio es del proyecto final de la academia CoderHouse. Es una página web que explica brevemente algunas modalidades del skateboard.
 
 ## Descripción
-Este repositorio es el proyecto final del proyecto de la academia CoderHouse. Este es una pagina web que explica brevemente algunas modalidades del skateboard.
 
 Para la creación se utilizó HTML, CSS, SASS, Bootstrap y conocimientos básicos de SEO.
 
+Se visualiza en esta página web la modalidad de FreeStyle, Downhill y carving. Explicando como es cada estilo, skater de referencia con pequeña biografía y estilo de patinetas para cada modalidad. Además de pequeñas noticias relevantes, sesión de torneos, videos de las modalidades y un documental de un referente importante del skateboard.
+
 ## Screenshots del Proyecto
 
-Visualización Index
+#### Visualización Index
 ![](Imagenes/MuestraIndex.png)
 
-Visualización sesión FreeStyle
+#### Visualización sesión FreeStyle
 ![](Imagenes/MuestraSesion1.png)
 
-Visualización sesión Downhill
+#### Visualización sesión Downhill
 ![](Imagenes/MuestraSesion2.png)
 
 ## Visualización del Proyecto
