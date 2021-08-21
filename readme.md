@@ -9,14 +9,13 @@ Para la creación se utilizó HTML, CSS, SASS, Bootstrap y conocimientos básico
 
 ## Screenshots del Proyecto
 
-Visualización del Index
-
+Visualización Index
 ![](Imagenes/MuestraIndex.png)
 
-Visualización de algunas sesiones
-
+Visualización sesión FreeStyle
 ![](Imagenes/MuestraSesion1.png)
 
+Visualización sesión Downhill
 ![](Imagenes/MuestraSesion2.png)
 
 ## Visualización del Proyecto
