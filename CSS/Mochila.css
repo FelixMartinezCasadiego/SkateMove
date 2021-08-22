@@ -662,6 +662,15 @@ footer {
   padding-top: 10px;
 }
 
+.Parrafo_Cards {
+  font-size: 16px;
+}
+
+.Titulo_Cards {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .Parrafo__Index {
   text-align: center;
   font-size: 20px;
