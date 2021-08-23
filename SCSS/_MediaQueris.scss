@@ -147,4 +147,94 @@
    }
 }
 
+// Media Queris de Sesión Diccionario trucos
+
+.GridTrucos__MediaQ{
+    display: grid;
+    grid-template-areas:    "Grid__Trick1 Grid__Trick2" 
+                            "Grid__Trick3 Grid__Trick4" 
+                            "Grid__Trick5 Grid__Trick6"
+                            "Grid__Trick7 Grid__Trick8"
+                            "Grid__Trick9 Grid__Trick10"
+                            "Grid__Trick11 Grid__Trick12"
+                            "Grid__Trick13 Grid__Trick14"
+                            "Grid__Trick15 Grid__Trick16";
+                            justify-items: center;
+                            margin-top: 40px;
+                            grid-template-columns: repeat(2, 1fr);
+                            grid-template-rows: repeat(8, 1fr)
+                   
+}
+
+.Grid__Trick1{
+    grid-area: Grid__Trick1;
+}
+
+.Grid__Trick2{
+    grid-area: Grid__Trick2;
+}
+
+.Grid__Trick3{
+    grid-area: Grid__Trick3;
+}
+
+.Grid__Trick4{
+    grid-area: Grid__Trick4;
+}
+
+.Grid__Trick5{
+    grid-area: Grid__Trick5;
+}
+
+.Grid__Trick6{
+    grid-area: Grid__Trick6;
+}
+
+.Grid__Trick7{
+    grid-area: Grid__Trick7;
+}
+
+.Grid__Trick8{
+    grid-area: Grid__Trick8;
+}
+
+.Grid__Trick9{
+    grid-area: Grid__Trick9;
+}
+
+.Grid__Trick10{
+    grid-area: Grid__Trick10;
+}
+
+.Grid__Trick11{
+    grid-area: Grid__Trick11;
+}
+
+.Grid__Trick13{
+    grid-area: Grid__Trick13;
+}
+
+.Grid__Trick14{
+    grid-area: Grid__Trick14;
+}
+
+.Grid__Trick15{
+    grid-area: Grid__Trick15;
+}
+
+.Grid__Trick16{
+    grid-area: Grid__Trick16;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

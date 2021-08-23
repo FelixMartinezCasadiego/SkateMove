@@ -599,6 +599,108 @@ h5 {
   }
 }
 
+.GridTrucos__MediaQ {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Grid__Trick1 Grid__Trick2"  "Grid__Trick3 Grid__Trick4"  "Grid__Trick5 Grid__Trick6" "Grid__Trick7 Grid__Trick8" "Grid__Trick9 Grid__Trick10" "Grid__Trick11 Grid__Trick12" "Grid__Trick13 Grid__Trick14" "Grid__Trick15 Grid__Trick16";
+  justify-items: center;
+  margin-top: 40px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+}
+
+.Grid__Trick1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick1;
+}
+
+.Grid__Trick2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick2;
+}
+
+.Grid__Trick3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick3;
+}
+
+.Grid__Trick4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick4;
+}
+
+.Grid__Trick5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick5;
+}
+
+.Grid__Trick6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick6;
+}
+
+.Grid__Trick7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick7;
+}
+
+.Grid__Trick8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick8;
+}
+
+.Grid__Trick9 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick9;
+}
+
+.Grid__Trick10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick10;
+}
+
+.Grid__Trick11 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick11;
+}
+
+.Grid__Trick13 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick13;
+}
+
+.Grid__Trick14 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick14;
+}
+
+.Grid__Trick15 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick15;
+}
+
+.Grid__Trick16 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick16;
+}
+
 .Skater__H4 {
   background-color: #FF7477;
   margin: 0px 30px 20px 30px;
@@ -643,6 +745,14 @@ h5 {
   margin-top: 10px;
 }
 
+.Backg__DiccAndReglas {
+  background-color: #FF7477;
+}
+
+.Backg__DiccAndReglas2 {
+  background: whitesmoke;
+}
+
 footer {
   font-size: 12px;
   margin: 100px 0px 0px 0px;
@@ -664,11 +774,22 @@ footer {
 
 .Parrafo_Cards {
   font-size: 16px;
+  text-align: justify;
 }
 
 .Titulo_Cards {
   font-size: 25px;
   font-weight: bold;
+}
+
+.Parrafo__DiccAndReglas {
+  font-size: 18px;
+}
+
+.Titulo__DiccAndReglas {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .Parrafo__Index {
