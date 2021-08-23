@@ -226,6 +226,30 @@
     grid-area: Grid__Trick16;
 }
 
+@media screen and (max-width:1024px) {
+    .GridTrucos__MediaQ{
+        display: grid;
+        grid-template-areas: 
+        "Grid__Trick2"
+        "Grid__Trick1"
+        "Grid__Trick3"
+        "Grid__Trick4"
+        "Grid__Trick6"
+        "Grid__Trick5"
+        "Grid__Trick7"
+        "Grid__Trick8"
+        "Grid__Trick10"
+        "Grid__Trick9"
+        "Grid__Trick11"
+        "Grid__Trick12"
+        "Grid__Trick14"
+        "Grid__Trick13"
+        "Grid__Trick15"
+        "Grid__Trick16";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(16, 1fr);
+   }
+}
 
 
 
