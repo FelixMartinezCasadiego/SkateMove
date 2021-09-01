@@ -1,34 +1,72 @@
-p{color:black; 
+@import "MediaQueris";
+@import "Colores";
+@import "Background";
+@import "Footer";
+@import "CardsBoot";
+
+p{
+    color:black; 
     font-family: TituloSecundario;
     text-align:justify; 
     padding: 0px 70px 10px 70px;
     font-size: 20px; 
-    font-weight: bold;}
+    font-weight: bold;
+}
+
 div p{
     color: black; 
     font-family: TituloSecundario;
     font-size: 40px;
     text-align: left;
 } 
+
 h1{color: black; 
     font-family: 
     'Amatic SC', cursive; 
-    font-size: 70px;}
-.down{color: red;}
-.centrado{ text-align: center; line-height: 1.6; 
+    font-size: 70px;
+}
+
+.down{
+    color: red;
+}
+
+.centrado{ 
+    text-align: center; 
+    line-height: 1.6; 
     font-family:TituloSecundario; 
     font-size: 30px; 
     word-spacing: 30px;
-background-color: whitesmoke;}
-image{ display: block; 
-    margin: auto;}
-html{ font-size: 62.5%;}
-*{ margin: 0; padding: 0;}
-a{ text-decoration: none; color: black;}
-a:hover{color: blue;}
-.PositionStycky{
-    position: sticky; top: 0px;
+    background-color: whitesmoke;
 }
+
+image{ 
+    display: block; 
+    margin: auto;
+}
+
+html{ 
+    font-size: 62.5%;
+}
+
+*{ 
+    margin: 0; 
+    padding: 0;
+}
+
+a{ 
+    text-decoration: none; 
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+.PositionStycky{
+    position: sticky; 
+    top: 0px;
+}
+
 .TituloSegundo{
     padding: 15px; 
     font-family: TituloSecundario;
@@ -36,22 +74,31 @@ a:hover{color: blue;}
     word-spacing: 30px;
     font-weight: bold;
 }
+
 ul li{
     display: inline-block; 
     position: relative;
 }
-ul{ list-style: none; }
+
+ul{ 
+    list-style: none; 
+}
+
 ul ul{
     position: absolute; 
     display: none;
 }
+
 ul li:hover ul{
-   display: block; font-size: 20px;
+   display: block; 
+   font-size: 20px;
    background-color: white;
 }
+
 ul ul li{
     display: block;
 }
+
 .MenuIndex{
     text-align: center; 
     line-height: 1.6; 
@@ -60,23 +107,27 @@ ul ul li{
     word-spacing: 30px; 
     position: sticky; top: 0px;
     background-color: white;
-   
 }
+
 @font-face {
     font-family: TituloSecundario;
     src: url("../FuentesLetras/PoiretOne-Regular.ttf");
 }
+
 .inline{
     display: inline;
 }
+
 .imgTorneo{
     padding: 15px 5px 15px 15px;
 }
+
 .ImagenTorneo{
     background-image: url("../Imagenes/olas.jpg"); margin: 15px 0px 0px 0px;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .FormularioTorneo{
     border: solid 1px black;
     margin-top: 15px;
@@ -86,12 +137,15 @@ ul ul li{
     background-image: url("../Imagenes/skater\ 1.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x:400px;
-    
+    background-position-x:400px; 
 }
+
 h3{
-    margin: 10px 0px 15px 0px;
+    font-family: TituloSecundario;
+    font-size: 40px;
+    font-weight: bold;
 }
+
 .FormularioTorneo2{
     padding: 0px 0px 40px 15px;
     font-size: 15px;
@@ -100,16 +154,18 @@ h3{
     background-repeat: no-repeat;
     background-size:contain;
     background-position-x: 220px;
-    background-position-y: 40px;
-    
+    background-position-y: 40px;  
 }
+
 table{
     border-color: black;
     font-size: 12px;
 }
+
 .DivTabla{
     width: 70px;
 }
+
 .imgFreestyle1{    
     display: flex ;
     flex-direction: row;
@@ -117,12 +173,20 @@ table{
     justify-content: space-evenly;
     align-items: center;
 }
+
 h4{
     margin: 20px 0px 20px 0px;
     font-family: TituloSecundario;
     font-size: 20px;
     font-weight: bold;
 }
+
+h7{
+    font-family: TituloSecundario;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .SigueLeyendo1{
    font-family: TituloSecundario;
    margin: 20px 30px 10px 0px;
@@ -133,17 +197,15 @@ h4{
 }
 
 .SkaterF2{
-
-text-align: center;
-padding: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 
 
 .divSkate2{
     height: 20px;
     width: 300px;
-    font-size: 12px;
-    
+    font-size: 12px; 
     line-height: 20px;
     color: #737477;
     text-transform: uppercase;
@@ -151,6 +213,7 @@ padding: 10px 0px 10px 0px;
     margin-bottom: 4px;
     font-family: Fuente1;
 }
+
 .divSkate3{
     height: 20px;
     width: 300px;
@@ -160,10 +223,12 @@ padding: 10px 0px 10px 0px;
     font-family: TituloSecundario;
     font-weight: 700;
 }
+
 @font-face {
     font-family: Fuente1;
     src: url("../FuentesLetras/Anton-Regular.ttf");
 }
+
 h5{
     font-family: TituloSecundario;
     margin: 0px 0px 20px 0px;
@@ -171,13 +236,15 @@ h5{
     text-align: center;
     background-color: #59CD90
 }
+
 .Grid1{
     display: grid;
-    grid-template-areas: "GridContainer1 GridContainer2" "GridContainer3 GridContainer4" "GridContainer5 GridContainer6";
+    grid-template-areas:    "GridContainer1 GridContainer2" 
+                            "GridContainer3 GridContainer4" 
+                            "GridContainer5 GridContainer6";
     justify-items: center;
     align-content: space-around;
-    grid-row-gap: 10px;
-    
+    grid-row-gap: 10px;   
 }
 
 .GridContainer1{
@@ -208,6 +275,7 @@ h5{
     text-align: center;
     margin-top: 20px;   
 }
+
 @media screen and (max-width:1200px) {
     .Grid1{
          display: grid;
@@ -222,23 +290,27 @@ h5{
          grid-template-rows: repeat(6, 1fr);
     }
 }
+
 .GridIndex{
     padding-top: 20px;
     display: grid;
     grid-template-areas: "imgI1 imgI2 imgI3";
     justify-items: center;
     align-items: center;
-
 }
+
 .imgI1{
     grid-area: imgI1;
 }
+
 .imgI2{
     grid-area: imgI2;
 }
+
 .imgI3{
     grid-area: imgI3;
 }
+
 @media screen and (max-width:768px) {
     .GridIndex{
          display: grid;
@@ -247,6 +319,7 @@ h5{
          grid-template-rows: repeat(3, 1fr);
     }
 }
+
 .GradientFree{
     background-image: linear-gradient(to bottom, #FFEE93, #9CF6F6);
     text-align: center;
@@ -266,8 +339,7 @@ h5{
 }
 
 .DivFreeP2{
-    font-size: 20px;
-    
+    font-size: 20px;  
 }
 
 
@@ -303,8 +375,7 @@ h5{
 .DivForm{
     width: 342px;
     height: 28px;
-    padding: 0px 0px 60px 0px;
-    
+    padding: 0px 0px 60px 0px;   
 }
 
 .DivForm2{
@@ -315,12 +386,6 @@ h5{
 .Carving__Imagen1{   
     padding: 10px 10px 10px 10px;
 }
-
-@import "MediaQueris";
-@import "Colores";
-@import "Background";
-@import "Footer";
-@import "CardsBoot";
 
 .Parrafo__Index{
     text-align: center;

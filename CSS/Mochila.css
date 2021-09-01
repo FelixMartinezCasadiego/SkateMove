@@ -1,431 +1,3 @@
-p {
-  color: black;
-  font-family: TituloSecundario;
-  text-align: justify;
-  padding: 0px 70px 10px 70px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-div p {
-  color: black;
-  font-family: TituloSecundario;
-  font-size: 40px;
-  text-align: left;
-}
-
-h1 {
-  color: black;
-  font-family: 'Amatic SC', cursive;
-  font-size: 70px;
-}
-
-.down {
-  color: red;
-}
-
-.centrado {
-  text-align: center;
-  line-height: 1.6;
-  font-family: TituloSecundario;
-  font-size: 30px;
-  word-spacing: 30px;
-  background-color: whitesmoke;
-}
-
-image {
-  display: block;
-  margin: auto;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  color: blue;
-}
-
-.PositionStycky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-}
-
-.TituloSegundo {
-  padding: 15px;
-  font-family: TituloSecundario;
-  font-size: 60px;
-  word-spacing: 30px;
-  font-weight: bold;
-}
-
-ul li {
-  display: inline-block;
-  position: relative;
-}
-
-ul {
-  list-style: none;
-}
-
-ul ul {
-  position: absolute;
-  display: none;
-}
-
-ul li:hover ul {
-  display: block;
-  font-size: 20px;
-  background-color: white;
-}
-
-ul ul li {
-  display: block;
-}
-
-.MenuIndex {
-  text-align: center;
-  line-height: 1.6;
-  font-family: 'Poiret One', cursive;
-  font-size: 30px;
-  word-spacing: 30px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  background-color: white;
-}
-
-@font-face {
-  font-family: TituloSecundario;
-  src: url("../FuentesLetras/PoiretOne-Regular.ttf");
-}
-
-.inline {
-  display: inline;
-}
-
-.imgTorneo {
-  padding: 15px 5px 15px 15px;
-}
-
-.ImagenTorneo {
-  background-image: url("../Imagenes/olas.jpg");
-  margin: 15px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.FormularioTorneo {
-  border: solid 1px black;
-  margin-top: 15px;
-  padding: 10px 0px 130px 25px;
-  font-size: 15px;
-  line-height: 1.6;
-  background-image: url("../Imagenes/skater 1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-x: 400px;
-}
-
-h3 {
-  margin: 10px 0px 15px 0px;
-}
-
-.FormularioTorneo2 {
-  padding: 0px 0px 40px 15px;
-  font-size: 15px;
-  line-height: 1.6;
-  background-image: url("../Imagenes/skatersFull.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position-x: 220px;
-  background-position-y: 40px;
-}
-
-table {
-  border-color: black;
-  font-size: 12px;
-}
-
-.DivTabla {
-  width: 70px;
-}
-
-.imgFreestyle1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-flow: nowrap;
-      flex-flow: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-h4 {
-  margin: 20px 0px 20px 0px;
-  font-family: TituloSecundario;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.SigueLeyendo1 {
-  font-family: TituloSecundario;
-  margin: 20px 30px 10px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  font-size: 20px;
-}
-
-.SkaterF2 {
-  text-align: center;
-  padding: 10px 0px 10px 0px;
-}
-
-.divSkate2 {
-  height: 20px;
-  width: 300px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #737477;
-  text-transform: uppercase;
-  list-style: none;
-  margin-bottom: 4px;
-  font-family: Fuente1;
-}
-
-.divSkate3 {
-  height: 20px;
-  width: 300px;
-  font-size: 18px;
-  line-height: 20px;
-  color: black;
-  font-family: TituloSecundario;
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: Fuente1;
-  src: url("../FuentesLetras/Anton-Regular.ttf");
-}
-
-h5 {
-  font-family: TituloSecundario;
-  margin: 0px 0px 20px 0px;
-  font-size: 40px;
-  text-align: center;
-  background-color: #59CD90;
-}
-
-.Grid1 {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "GridContainer1 GridContainer2" "GridContainer3 GridContainer4" "GridContainer5 GridContainer6";
-  justify-items: center;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
-  grid-row-gap: 10px;
-}
-
-.GridContainer1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: GridContainer1;
-}
-
-.GridContainer2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: GridContainer2;
-}
-
-.GridContainer3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: GridContainer3;
-}
-
-.GridContainer4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: GridContainer4;
-}
-
-.GridContainer5 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: GridContainer5;
-}
-
-.GridContainer6 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  grid-area: GridContainer6;
-}
-
-.EscritoP {
-  text-align: center;
-  margin-top: 20px;
-}
-
-@media screen and (max-width: 1200px) {
-  .Grid1 {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "GridContainer1"  "GridContainer2"  "GridContainer3"  "GridContainer4"  "GridContainer5"  "GridContainer6";
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[6];
-        grid-template-rows: repeat(6, 1fr);
-  }
-}
-
-.GridIndex {
-  padding-top: 20px;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "imgI1 imgI2 imgI3";
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.imgI1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: imgI1;
-}
-
-.imgI2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: imgI2;
-}
-
-.imgI3 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: imgI3;
-}
-
-@media screen and (max-width: 768px) {
-  .GridIndex {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "imgI1" "imgI2" "imgI3";
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[3];
-        grid-template-rows: repeat(3, 1fr);
-  }
-}
-
-.GradientFree {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFEE93), to(#9CF6F6));
-  background-image: linear-gradient(to bottom, #FFEE93, #9CF6F6);
-  text-align: center;
-  padding-top: 20px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1Fr 2Fr;
-      grid-template-columns: 1Fr 2Fr;
-      grid-template-areas: "AsideFree DivFreeP";
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-
-.DivFreeP {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: DivFreeP;
-}
-
-.AsideFree {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: AsideFree;
-}
-
-.DivFreeP2 {
-  font-size: 20px;
-}
-
-.ImgFreeB {
-  height: 250px;
-  margin-top: 10px;
-  background-image: url(../Imagenes/SkateTablas1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.Transform1 {
-  -webkit-transform: skewx(15deg);
-          transform: skewx(15deg);
-  -webkit-transition: 2s;
-  transition: 2s;
-  padding: 10px 0px 10px 0px;
-}
-
-.Transform2 {
-  padding: 10px 0px 10px 0px;
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
-  -webkit-transition: 2s;
-  transition: 2s;
-}
-
-.Transform3 {
-  padding: 10px 0px 10px 0px;
-}
-
-.DivBoo {
-  padding-top: 20px;
-  width: 1200px;
-}
-
-.DivForm {
-  width: 342px;
-  height: 28px;
-  padding: 0px 0px 60px 0px;
-}
-
-.DivForm2 {
-  width: 342px;
-  height: 28px;
-}
-
-.Carving__Imagen1 {
-  padding: 10px 10px 10px 10px;
-}
-
 .FreeMedia1 {
   display: -ms-grid;
   display: grid;
@@ -765,6 +337,10 @@ h5 {
   background: whitesmoke;
 }
 
+.Backg__H3 {
+  background-color: #FF7477;
+}
+
 footer {
   font-size: 12px;
   margin: 100px 0px 0px 0px;
@@ -802,6 +378,442 @@ footer {
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+p {
+  color: black;
+  font-family: TituloSecundario;
+  text-align: justify;
+  padding: 0px 70px 10px 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div p {
+  color: black;
+  font-family: TituloSecundario;
+  font-size: 40px;
+  text-align: left;
+}
+
+h1 {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 70px;
+}
+
+.down {
+  color: red;
+}
+
+.centrado {
+  text-align: center;
+  line-height: 1.6;
+  font-family: TituloSecundario;
+  font-size: 30px;
+  word-spacing: 30px;
+  background-color: whitesmoke;
+}
+
+image {
+  display: block;
+  margin: auto;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.PositionStycky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.TituloSegundo {
+  padding: 15px;
+  font-family: TituloSecundario;
+  font-size: 60px;
+  word-spacing: 30px;
+  font-weight: bold;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+  font-size: 20px;
+  background-color: white;
+}
+
+ul ul li {
+  display: block;
+}
+
+.MenuIndex {
+  text-align: center;
+  line-height: 1.6;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  word-spacing: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+@font-face {
+  font-family: TituloSecundario;
+  src: url("../FuentesLetras/PoiretOne-Regular.ttf");
+}
+
+.inline {
+  display: inline;
+}
+
+.imgTorneo {
+  padding: 15px 5px 15px 15px;
+}
+
+.ImagenTorneo {
+  background-image: url("../Imagenes/olas.jpg");
+  margin: 15px 0px 0px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.FormularioTorneo {
+  border: solid 1px black;
+  margin-top: 15px;
+  padding: 10px 0px 130px 25px;
+  font-size: 15px;
+  line-height: 1.6;
+  background-image: url("../Imagenes/skater 1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 400px;
+}
+
+h3 {
+  font-family: TituloSecundario;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.FormularioTorneo2 {
+  padding: 0px 0px 40px 15px;
+  font-size: 15px;
+  line-height: 1.6;
+  background-image: url("../Imagenes/skatersFull.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: 220px;
+  background-position-y: 40px;
+}
+
+table {
+  border-color: black;
+  font-size: 12px;
+}
+
+.DivTabla {
+  width: 70px;
+}
+
+.imgFreestyle1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h4 {
+  margin: 20px 0px 20px 0px;
+  font-family: TituloSecundario;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h7 {
+  font-family: TituloSecundario;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.SigueLeyendo1 {
+  font-family: TituloSecundario;
+  margin: 20px 30px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-size: 20px;
+}
+
+.SkaterF2 {
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+
+.divSkate2 {
+  height: 20px;
+  width: 300px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737477;
+  text-transform: uppercase;
+  list-style: none;
+  margin-bottom: 4px;
+  font-family: Fuente1;
+}
+
+.divSkate3 {
+  height: 20px;
+  width: 300px;
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  font-family: TituloSecundario;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Fuente1;
+  src: url("../FuentesLetras/Anton-Regular.ttf");
+}
+
+h5 {
+  font-family: TituloSecundario;
+  margin: 0px 0px 20px 0px;
+  font-size: 40px;
+  text-align: center;
+  background-color: #59CD90;
+}
+
+.Grid1 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "GridContainer1 GridContainer2"  "GridContainer3 GridContainer4"  "GridContainer5 GridContainer6";
+  justify-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  grid-row-gap: 10px;
+}
+
+.GridContainer1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: GridContainer1;
+}
+
+.GridContainer2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: GridContainer2;
+}
+
+.GridContainer3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: GridContainer3;
+}
+
+.GridContainer4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: GridContainer4;
+}
+
+.GridContainer5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: GridContainer5;
+}
+
+.GridContainer6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: GridContainer6;
+}
+
+.EscritoP {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Grid1 {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "GridContainer1"  "GridContainer2"  "GridContainer3"  "GridContainer4"  "GridContainer5"  "GridContainer6";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+.GridIndex {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "imgI1 imgI2 imgI3";
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imgI1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: imgI1;
+}
+
+.imgI2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: imgI2;
+}
+
+.imgI3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: imgI3;
+}
+
+@media screen and (max-width: 768px) {
+  .GridIndex {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "imgI1" "imgI2" "imgI3";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[3];
+        grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+.GradientFree {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#FFEE93), to(#9CF6F6));
+  background-image: linear-gradient(to bottom, #FFEE93, #9CF6F6);
+  text-align: center;
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1Fr 2Fr;
+      grid-template-columns: 1Fr 2Fr;
+      grid-template-areas: "AsideFree DivFreeP";
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.DivFreeP {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: DivFreeP;
+}
+
+.AsideFree {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: AsideFree;
+}
+
+.DivFreeP2 {
+  font-size: 20px;
+}
+
+.ImgFreeB {
+  height: 250px;
+  margin-top: 10px;
+  background-image: url(../Imagenes/SkateTablas1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Transform1 {
+  -webkit-transform: skewx(15deg);
+          transform: skewx(15deg);
+  -webkit-transition: 2s;
+  transition: 2s;
+  padding: 10px 0px 10px 0px;
+}
+
+.Transform2 {
+  padding: 10px 0px 10px 0px;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.Transform3 {
+  padding: 10px 0px 10px 0px;
+}
+
+.DivBoo {
+  padding-top: 20px;
+  width: 1200px;
+}
+
+.DivForm {
+  width: 342px;
+  height: 28px;
+  padding: 0px 0px 60px 0px;
+}
+
+.DivForm2 {
+  width: 342px;
+  height: 28px;
+}
+
+.Carving__Imagen1 {
+  padding: 10px 10px 10px 10px;
 }
 
 .Parrafo__Index {
