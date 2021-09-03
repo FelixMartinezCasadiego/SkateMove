@@ -1,9 +1,12 @@
+// Import de distintos Scss
+
 @import "MediaQueris";
 @import "Colores";
 @import "Background";
 @import "Footer";
 @import "CardsBoot";
 
+// Estilo para los parrafos
 p{
     color:black; 
     font-family: TituloSecundario;
@@ -13,6 +16,7 @@ p{
     font-weight: bold;
 }
 
+// Estilo para los parrafos que se encuentren dentro de un div
 div p{
     color: black; 
     font-family: TituloSecundario;
@@ -20,16 +24,14 @@ div p{
     text-align: left;
 } 
 
+// Estilo para todos los H1 
 h1{color: black; 
     font-family: 
     'Amatic SC', cursive; 
     font-size: 70px;
 }
 
-.down{
-    color: red;
-}
-
+// Clase para los navegadores de la sesiones
 .centrado{ 
     text-align: center; 
     line-height: 1.6; 
@@ -39,34 +41,34 @@ h1{color: black;
     background-color: whitesmoke;
 }
 
-image{ 
-    display: block; 
-    margin: auto;
-}
-
+// Definición del tamaño del html del proyecto
 html{ 
     font-size: 62.5%;
 }
 
+// Definición para los margenes y padding del proyecto
 *{ 
     margin: 0; 
     padding: 0;
 }
-
+ 
+// Definición para el comando "a"
 a{ 
     text-decoration: none; 
     color: black;
 }
 
+// Agregado de color al hover
 a:hover{
     color: blue;
 }
-
+ // Clase para que el navegador se mantenga con el usuario
 .PositionStycky{
     position: sticky; 
     top: 0px;
 }
 
+// Clase para los Titulos de cada sesión
 .TituloSegundo{
     padding: 15px; 
     font-family: TituloSecundario;
@@ -75,6 +77,7 @@ a:hover{
     font-weight: bold;
 }
 
+// Arreglos para optimizar el navegador de cada sesión
 ul li{
     display: inline-block; 
     position: relative;
@@ -99,35 +102,35 @@ ul ul li{
     display: block;
 }
 
+// Clase para el navegador del Index
 .MenuIndex{
     text-align: center; 
     line-height: 1.6; 
     font-family: 'Poiret One', cursive;
     font-size: 30px; 
     word-spacing: 30px; 
-    position: sticky; top: 0px;
+    position: sticky; 
+    top: 0px;
     background-color: white;
 }
 
+// Agregado de letras descargadas con nombre TituloSecundario
 @font-face {
     font-family: TituloSecundario;
     src: url("../FuentesLetras/PoiretOne-Regular.ttf");
 }
 
+// Clase para generar los el display:inline
 .inline{
     display: inline;
 }
 
+// Clase usada en Sesión Torneo
 .imgTorneo{
     padding: 15px 5px 15px 15px;
 }
 
-.ImagenTorneo{
-    background-image: url("../Imagenes/olas.jpg"); margin: 15px 0px 0px 0px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
+// Clase para el formulario
 .FormularioTorneo{
     border: solid 1px black;
     margin-top: 15px;
@@ -140,12 +143,19 @@ ul ul li{
     background-position-x:400px; 
 }
 
+// Estilo para los H3
 h3{
     font-family: TituloSecundario;
     font-size: 40px;
     font-weight: bold;
 }
 
+// Clase para los subtitulos del Formulario
+.SubTituloForm{
+    font-size: 20px;
+}
+
+// Clase para el formulario del torneo
 .FormularioTorneo2{
     padding: 0px 0px 40px 15px;
     font-size: 15px;
@@ -157,15 +167,18 @@ h3{
     background-position-y: 40px;  
 }
 
+// Clase para la tabla del formulario
 table{
     border-color: black;
     font-size: 12px;
 }
 
+// Div para la del formulario "Profesionales que asistirán"
 .DivTabla{
     width: 70px;
 }
 
+// Clase utilizada en sesión Freestyle
 .imgFreestyle1{    
     display: flex ;
     flex-direction: row;
@@ -174,6 +187,7 @@ table{
     align-items: center;
 }
 
+// Estilo para el H4
 h4{
     margin: 20px 0px 20px 0px;
     font-family: TituloSecundario;
@@ -181,12 +195,14 @@ h4{
     font-weight: bold;
 }
 
+// Estilo para el H7
 h7{
     font-family: TituloSecundario;
     font-size: 20px;
     font-weight: bold;
 }
 
+// Clase para "Sigue leyendo" de cada sesión
 .SigueLeyendo1{
    font-family: TituloSecundario;
    margin: 20px 30px 10px 0px;
@@ -196,12 +212,13 @@ h7{
    font-size: 20px;
 }
 
+// Clase para alinear reseña en sesión de Skater (Freestyle, Downhill, Carving)
 .SkaterF2{
     text-align: center;
     padding: 10px 0px 10px 0px;
 }
 
-
+// Clase para el estilo en la sesión de Skater (Freestyle, Downhill, Carving)
 .divSkate2{
     height: 20px;
     width: 300px;
@@ -214,6 +231,7 @@ h7{
     font-family: Fuente1;
 }
 
+// Clase para el estilo en la sesión de Skater (Freestyle, Downhill, Carving)
 .divSkate3{
     height: 20px;
     width: 300px;
@@ -224,11 +242,13 @@ h7{
     font-weight: 700;
 }
 
+// Agregado de letras descargadas con nombre Fuente1
 @font-face {
     font-family: Fuente1;
     src: url("../FuentesLetras/Anton-Regular.ttf");
 }
 
+// Estilo para H5
 h5{
     font-family: TituloSecundario;
     margin: 0px 0px 20px 0px;
@@ -237,6 +257,7 @@ h5{
     background-color: #59CD90
 }
 
+// Clase usada para estilo de sesión Freestyle Videos
 .Grid1{
     display: grid;
     grid-template-areas:    "GridContainer1 GridContainer2" 
@@ -271,6 +292,7 @@ h5{
     grid-area: GridContainer6;
 }
 
+// Clase usada para algunos parrafos
 .EscritoP{
     text-align: center;
     margin-top: 20px;   
@@ -291,35 +313,7 @@ h5{
     }
 }
 
-.GridIndex{
-    padding-top: 20px;
-    display: grid;
-    grid-template-areas: "imgI1 imgI2 imgI3";
-    justify-items: center;
-    align-items: center;
-}
-
-.imgI1{
-    grid-area: imgI1;
-}
-
-.imgI2{
-    grid-area: imgI2;
-}
-
-.imgI3{
-    grid-area: imgI3;
-}
-
-@media screen and (max-width:768px) {
-    .GridIndex{
-         display: grid;
-         grid-template-areas: "imgI1" "imgI2" "imgI3";
-         grid-template-columns: 1fr;
-         grid-template-rows: repeat(3, 1fr);
-    }
-}
-
+// Clase usada en sesión de patinetas
 .GradientFree{
     background-image: linear-gradient(to bottom, #FFEE93, #9CF6F6);
     text-align: center;
@@ -330,19 +324,22 @@ h5{
     align-items: start;
 }
 
+// Clase usada en sesión de patinetas
 .DivFreeP{
     grid-area: DivFreeP;
 }
 
+// Clase usada en sesión de patinetas
 .AsideFree{
     grid-area: AsideFree;
 }
 
+// Clase usada en sesión de patinetas
 .DivFreeP2{
     font-size: 20px;  
 }
 
-
+// Clase usada en sesión de patinetas
 .ImgFreeB{
     height: 250px;
     margin-top: 10px;
@@ -351,44 +348,307 @@ h5{
     background-repeat: no-repeat;
 }
 
+// Clase usada en sesión de patinetas
 .Transform1{
     transform: skewx(15deg);
     transition: 2s;
     padding: 10px 0px 10px 0px;
 }
 
+// Clase usada en sesión de patinetas
 .Transform2{
     padding: 10px 0px 10px 0px;
     transform: rotate(20deg);
     transition: 2s;
 }
 
+// Clase usada en sesión de patinetas
 .Transform3{
     padding: 10px 0px 10px 0px; 
 }
 
+// Div usada en el index en el área de serie de la semana
 .DivBoo{
     padding-top: 20px;
     width: 1200px;
 }
 
+// Clase usada en la sesiones de los formularios
 .DivForm{
     width: 342px;
     height: 28px;
     padding: 0px 0px 60px 0px;   
 }
 
+// Clase usada en la sesiones de los formularios
 .DivForm2{
     width: 342px;
     height: 28px;
 }
 
+// Clase usada en sesión Patinetas carving
 .Carving__Imagen1{   
     padding: 10px 10px 10px 10px;
 }
 
+// Clase para el parrafo del index
 .Parrafo__Index{
     text-align: center;
     font-size: 20px;
     margin: 50px 50px 0px 50px;
+}
+
+//Media Queris Freestyle/Carving/Downhill - Skater
+
+.FreeMedia1{
+    display: grid;
+    grid-template-areas: "Leti1 Leti2";
+    justify-items: center;
+    align-content: center;
+}
+
+.Leti1{
+    grid-area: Leti1;
+}
+
+.Leti2{
+    grid-area: Leti2;
+}
+
+@media screen and (max-width:1200px) {
+    .FreeMedia1{
+        display: grid;
+        grid-template-areas: "Leti2" "Leti1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+
+    }
+}
+
+
+//Media Queris Freestyle/Carving/Downhill - Videos
+
+.FreeMedia2{
+    display: grid;
+    grid-template-areas: "VideoFree1 VideoFree2";
+    justify-items: center;
+    align-content: center;
+}
+
+.VideoFree1{
+    grid-area: VideoFree1;
+}
+
+.VideoFree2{
+    grid-area: VideoFree2;
+}
+
+@media screen and (max-width:1200px) {
+    .FreeMedia2{
+        display: grid;
+        grid-template-areas: "VideoFree1" "VideoFree2";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;  
+     
+    }
+}
+
+//Media Queris Freestyle/Carving/Downhill - Patinetas
+
+.FreeMedia3{
+    display: grid;
+    grid-template-areas: "FreePatineta1 FreePatineta2";
+    justify-items: center;
+    align-content: center;
+
+}
+
+.FreePatineta1{
+    grid-area: FreePatineta1;
+}
+
+.FreePatineta2{
+    grid-area: FreePatineta2;
+}
+
+@media screen and (max-width:1200px) {
+    .FreeMedia3{
+        display: grid;
+        grid-template-areas: "FreePatineta2" "FreePatineta1";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 10px;
+        background-size: contain;  
+    }
+
+}
+
+//Media Queris Videos Carving
+
+.VideosCarving__MediaQueris{
+    display: grid;
+    grid-template-areas: "Video__Carving1 Video__Carving2" "Video__Carving3 Video__Carving4" "Video__Carving5 Video__Carving6";
+    justify-items: center;
+    align-content: space-around;
+    grid-row-gap: 10px;   
+}
+
+.Video__Carving1{
+    grid-area: Video__Carving1;
+}
+
+.Video__Carving2{
+    grid-area: Video__Carving2;
+}
+
+.Video__Carving3{
+    grid-area: Video__Carving3;
+}
+
+.Video__Carving4{
+    grid-area: Video__Carving4;
+}
+
+.Video__Carving5{
+    grid-area: Video__Carving5;
+}
+
+.Video__Carving6{
+    grid-area: Video__Carving6;
+}
+
+@media screen and (max-width:1200px) {
+    .VideosCarving__MediaQueris{
+         display: grid;
+         grid-template-areas: 
+         "Video__Carving1" 
+         "Video__Carving2" 
+         "Video__Carving3" 
+         "Video__Carving4" 
+         "Video__Carving5" 
+         "Video__Carving6";
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+
+// Media Queris Patinetas
+
+@media screen and (max-width:1024px) {
+    .GradientFree{
+        display: grid;
+        grid-template-areas: 
+        "DivFreeP" 
+        "AsideFree";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+   }
+}
+
+
+// Media Queris de Sesión Diccionario trucos
+
+.GridTrucos__MediaQ{
+    display: grid;
+    grid-template-areas:    "Grid__Trick1 Grid__Trick2" 
+                            "Grid__Trick3 Grid__Trick4" 
+                            "Grid__Trick5 Grid__Trick6"
+                            "Grid__Trick7 Grid__Trick8"
+                            "Grid__Trick9 Grid__Trick10"
+                            "Grid__Trick11 Grid__Trick12"
+                            "Grid__Trick13 Grid__Trick14"
+                            "Grid__Trick15 Grid__Trick16";
+                            justify-items: center;
+                            margin-top: 40px;
+                            grid-template-columns: repeat(2, 1fr);
+                            grid-template-rows: repeat(8, 1fr)
+                   
+}
+
+.Grid__Trick1{
+    grid-area: Grid__Trick1;
+}
+
+.Grid__Trick2{
+    grid-area: Grid__Trick2;
+}
+
+.Grid__Trick3{
+    grid-area: Grid__Trick3;
+}
+
+.Grid__Trick4{
+    grid-area: Grid__Trick4;
+}
+
+.Grid__Trick5{
+    grid-area: Grid__Trick5;
+}
+
+.Grid__Trick6{
+    grid-area: Grid__Trick6;
+}
+
+.Grid__Trick7{
+    grid-area: Grid__Trick7;
+}
+
+.Grid__Trick8{
+    grid-area: Grid__Trick8;
+}
+
+.Grid__Trick9{
+    grid-area: Grid__Trick9;
+}
+
+.Grid__Trick10{
+    grid-area: Grid__Trick10;
+}
+
+.Grid__Trick11{
+    grid-area: Grid__Trick11;
+}
+
+.Grid__Trick13{
+    grid-area: Grid__Trick13;
+}
+
+.Grid__Trick14{
+    grid-area: Grid__Trick14;
+}
+
+.Grid__Trick15{
+    grid-area: Grid__Trick15;
+}
+
+.Grid__Trick16{
+    grid-area: Grid__Trick16;
+}
+
+@media screen and (max-width:1024px) {
+    .GridTrucos__MediaQ{
+        display: grid;
+        grid-template-areas: 
+        "Grid__Trick2"
+        "Grid__Trick1"
+        "Grid__Trick3"
+        "Grid__Trick4"
+        "Grid__Trick6"
+        "Grid__Trick5"
+        "Grid__Trick7"
+        "Grid__Trick8"
+        "Grid__Trick10"
+        "Grid__Trick9"
+        "Grid__Trick11"
+        "Grid__Trick12"
+        "Grid__Trick14"
+        "Grid__Trick13"
+        "Grid__Trick15"
+        "Grid__Trick16";
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(16, 1fr);
+   }
 }

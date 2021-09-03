@@ -402,10 +402,6 @@ h1 {
   font-size: 70px;
 }
 
-.down {
-  color: red;
-}
-
 .centrado {
   text-align: center;
   line-height: 1.6;
@@ -413,11 +409,6 @@ h1 {
   font-size: 30px;
   word-spacing: 30px;
   background-color: whitesmoke;
-}
-
-image {
-  display: block;
-  margin: auto;
 }
 
 html {
@@ -501,13 +492,6 @@ ul ul li {
   padding: 15px 5px 15px 15px;
 }
 
-.ImagenTorneo {
-  background-image: url("../Imagenes/olas.jpg");
-  margin: 15px 0px 0px 0px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .FormularioTorneo {
   border: solid 1px black;
   margin-top: 15px;
@@ -524,6 +508,10 @@ h3 {
   font-family: TituloSecundario;
   font-size: 40px;
   font-weight: bold;
+}
+
+.SubTituloForm {
+  font-size: 20px;
 }
 
 .FormularioTorneo2 {
@@ -696,47 +684,6 @@ h5 {
   }
 }
 
-.GridIndex {
-  padding-top: 20px;
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "imgI1 imgI2 imgI3";
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.imgI1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: imgI1;
-}
-
-.imgI2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: imgI2;
-}
-
-.imgI3 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: imgI3;
-}
-
-@media screen and (max-width: 768px) {
-  .GridIndex {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "imgI1" "imgI2" "imgI3";
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    -ms-grid-rows: (1fr)[3];
-        grid-template-rows: repeat(3, 1fr);
-  }
-}
-
 .GradientFree {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#FFEE93), to(#9CF6F6));
   background-image: linear-gradient(to bottom, #FFEE93, #9CF6F6);
@@ -820,5 +767,292 @@ h5 {
   text-align: center;
   font-size: 20px;
   margin: 50px 50px 0px 50px;
+}
+
+.FreeMedia1 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Leti1 Leti2";
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.Leti1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Leti1;
+}
+
+.Leti2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Leti2;
+}
+
+@media screen and (max-width: 1200px) {
+  .FreeMedia1 {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "Leti2" "Leti1";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+}
+
+.FreeMedia2 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "VideoFree1 VideoFree2";
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.VideoFree1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: VideoFree1;
+}
+
+.VideoFree2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: VideoFree2;
+}
+
+@media screen and (max-width: 1200px) {
+  .FreeMedia2 {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "VideoFree1" "VideoFree2";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+}
+
+.FreeMedia3 {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "FreePatineta1 FreePatineta2";
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.FreePatineta1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: FreePatineta1;
+}
+
+.FreePatineta2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: FreePatineta2;
+}
+
+@media screen and (max-width: 1200px) {
+  .FreeMedia3 {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "FreePatineta2" "FreePatineta1";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    background-size: contain;
+  }
+}
+
+.VideosCarving__MediaQueris {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Video__Carving1 Video__Carving2" "Video__Carving3 Video__Carving4" "Video__Carving5 Video__Carving6";
+  justify-items: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  grid-row-gap: 10px;
+}
+
+.Video__Carving1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Video__Carving1;
+}
+
+.Video__Carving2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Video__Carving2;
+}
+
+.Video__Carving3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Video__Carving3;
+}
+
+.Video__Carving4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Video__Carving4;
+}
+
+.Video__Carving5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: Video__Carving5;
+}
+
+.Video__Carving6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: Video__Carving6;
+}
+
+@media screen and (max-width: 1200px) {
+  .VideosCarving__MediaQueris {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "Video__Carving1"  "Video__Carving2"  "Video__Carving3"  "Video__Carving4"  "Video__Carving5"  "Video__Carving6";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[6];
+        grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .GradientFree {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "DivFreeP"  "AsideFree";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+  }
+}
+
+.GridTrucos__MediaQ {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "Grid__Trick1 Grid__Trick2"  "Grid__Trick3 Grid__Trick4"  "Grid__Trick5 Grid__Trick6" "Grid__Trick7 Grid__Trick8" "Grid__Trick9 Grid__Trick10" "Grid__Trick11 Grid__Trick12" "Grid__Trick13 Grid__Trick14" "Grid__Trick15 Grid__Trick16";
+  justify-items: center;
+  margin-top: 40px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+}
+
+.Grid__Trick1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick1;
+}
+
+.Grid__Trick2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick2;
+}
+
+.Grid__Trick3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick3;
+}
+
+.Grid__Trick4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick4;
+}
+
+.Grid__Trick5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick5;
+}
+
+.Grid__Trick6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick6;
+}
+
+.Grid__Trick7 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick7;
+}
+
+.Grid__Trick8 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick8;
+}
+
+.Grid__Trick9 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick9;
+}
+
+.Grid__Trick10 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick10;
+}
+
+.Grid__Trick11 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick11;
+}
+
+.Grid__Trick13 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick13;
+}
+
+.Grid__Trick14 {
+  -ms-grid-row: 7;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick14;
+}
+
+.Grid__Trick15 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 1;
+  grid-area: Grid__Trick15;
+}
+
+.Grid__Trick16 {
+  -ms-grid-row: 8;
+  -ms-grid-column: 2;
+  grid-area: Grid__Trick16;
+}
+
+@media screen and (max-width: 1024px) {
+  .GridTrucos__MediaQ {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "Grid__Trick2" "Grid__Trick1" "Grid__Trick3" "Grid__Trick4" "Grid__Trick6" "Grid__Trick5" "Grid__Trick7" "Grid__Trick8" "Grid__Trick10" "Grid__Trick9" "Grid__Trick11" "Grid__Trick12" "Grid__Trick14" "Grid__Trick13" "Grid__Trick15" "Grid__Trick16";
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (1fr)[16];
+        grid-template-rows: repeat(16, 1fr);
+  }
 }
 /*# sourceMappingURL=Mochila.css.map */

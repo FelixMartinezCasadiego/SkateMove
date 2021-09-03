@@ -64,7 +64,7 @@
     <!-- Área del Formulario -->
     <form>
         <div class="FormularioTorneo">
-        <h3>Información del Participante</h3>
+        <h3 class="SubTituloForm">Información del Participante</h3>
 
         <div class="mb-3 DivForm">
             <label for="Nombre" class="form-label">Nombre del participante:</label>
@@ -102,7 +102,7 @@
         </div>
         
 
-        <h3>Categoria</h3>
+        <h3 class="SubTituloForm">Categoria</h3>
 
         <select class="form-select form-select-lg DivForm2" aria-label="Default select example">
             <option selected>Selecciona acá tu categoria</option>
@@ -112,7 +112,7 @@
         </select>
         
 
-        <h3>Tipos de Competición</h3>
+        <h3 class="SubTituloForm mt-3">Tipos de Competición</h3>
 
         <div class="form-check DivForm2">
             <input type="checkbox" id="Downhill" name="Downhill" class="form-check-input"><label for="Downhill" class="form-check-label">Downhill</label>
@@ -130,18 +130,19 @@
             <input type="Checkbox" id="Dancing" name="Dancing" class="form-check-input"><label for="Dancing" class="form-check-label">Dancing</label>
         </div>
      
-        <label for="Pago"><h3>Pago de inscripción</h3></label>
+        <label for="Pago"><h3 class="SubTituloForm my-3">Pago de inscripción</h3></label>
         <select name="Pago" id="Pago" class="form-select form-select-lg DivForm2" aria-label="Pago de inscripción">
             <option selected>Selecciona el medio de Pago</option>
             <option value="1">Efectivo</option>
             <option value="2">Tarjeta de débito</option>
             <option value="3">Tarjeta de crédito</option>
-        </select><br>
+        </select>
 
-        <div class="mb-3 DivForm2">
-            <label for="texto" class="form-label">Quieres comentarnos que música te gustaría al salir a la pista?</label><br>
-            <textarea name="" id="texto" placeholder="Escribe acá las canciones o agregados que quieres" class="form-control" rows="3"></textarea>
-            <br>
+        <div class="mb-3 DivForm2 mt-3">
+            <label for="texto" class="form-label">Quieres comentarnos que música te gustaría al salir a la pista?</label>
+            <textarea name="" id="texto" placeholder="Escribe acá las canciones o agregados que quieres" class="form-control mb-3" rows="3"></textarea>
+        
+            
         
 
             <button type="submit" class="btn btn-success btn-lg">Enviar</button>
@@ -150,7 +151,7 @@
     </div>
 
     <div class="FormularioTorneo2">
-      <h3>Profesionales que Asistirán</h3>
+      <h3 class="SubTituloForm mt-3">Profesionales que Asistirán</h3>
 
       <table class="table table-striped DivTabla">
         
@@ -191,7 +192,7 @@
         </tr>
     </table>
 
-    <h3>Recomendaciones</h3>
+    <h3 class="SubTituloForm mt-3">Recomendaciones</h3>
     <li>Trae mas de dos tablas</li>
     <li>Hidratarse</li>
     <li>Usar protecciones</li>
